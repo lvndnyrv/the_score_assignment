@@ -29,7 +29,6 @@ public class WelcomePage extends TheScoreUtils {
 
     @FindBy(id = "com.fivemobile.thescore:id/btn_get_started")
     private WebElement getStarted;
-//    private By getStarted = id("com.fivemobile.thescore:id/btn_get_started");
 
     /**
      * Method will navigate from Welcome Page to League Selection!

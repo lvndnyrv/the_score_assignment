@@ -17,9 +17,6 @@ public class FavouriteTeamsPage extends TheScoreUtils {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    @FindBy(id = "com.fivemobile.thescore:id/title")
-    private WebElement selectedLeague;
-
     @FindBy(xpath = "//*[contains(@text, 'Search')]")
     private WebElement searchBar;
 
